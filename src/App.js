@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person.js'
+import Login from './Login/Login.js'
 
 class App extends Component {
   state = {
@@ -36,6 +37,8 @@ class App extends Component {
         <button onClick={this.switchNameHandler}>Switch Name</button>
         <Person name={this.state.person[0].name} age={this.state.person[0].age} >My hobbies : racing </Person>
         <Person name={this.state.person[1].name} age={this.state.person[1].age}/>
+
+        <Login />
       </div>
     );
     // return React.createElement('div',{className : 'App'}, React.createElement('h1',null, 'Hi i\'m a react app'));
