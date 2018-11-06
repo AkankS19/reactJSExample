@@ -4,4 +4,6 @@
 
 .text{
   background-color: red;
+  width: 60%;
+  height: 200px;
 }
